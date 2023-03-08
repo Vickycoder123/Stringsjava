@@ -3,6 +3,7 @@ import java.util.*;
 public class Reverse{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Original string: ");
         String OriginalStr = sc.nextLine();
         String ReverseStr = "";
         //Reversing a String
